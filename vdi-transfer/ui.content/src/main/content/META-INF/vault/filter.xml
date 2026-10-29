@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/prudential-aem-malaysia" mode="merge"/>
+    <filter root="/content/cq:tags/pamb" mode="merge"/>
+	<filter root="/content/api" mode="merge"/>
+    <filter root="/etc/acs-commons/lists/pamb" mode="merge"/>
+    <filter root="/etc/map.publish/https/pamb-lbu-mapping" mode="merge"/>
+    <filter root="/conf/global/settings/dam/adminui-extension" mode="merge"/>
+    <filter root="/content/dam/pamb/email-templates/legacy-blueprint" mode="merge"/>
+</workspaceFilter>

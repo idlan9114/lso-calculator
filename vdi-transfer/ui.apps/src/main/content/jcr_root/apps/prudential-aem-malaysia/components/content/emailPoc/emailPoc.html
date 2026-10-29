@@ -1,0 +1,21 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" />
+<sly data-sly-call="${clientlib.js @ categories='prudential-aem-malaysia.emailPoc'}" />
+
+<div class="email-poc"
+    data-cmp-is="emailPoc"
+    data-endpoint="${resource.path}.emailpoc.json">
+
+    <h2 class="email-poc__title">${properties.title || 'Email POC'}</h2>
+
+    <form class="email-poc__form">
+        <label class="email-poc__label">
+            Email
+            <input class="email-poc__input" type="email" name="email" required
+                autocomplete="email"
+                placeholder="${properties.placeholder || 'Enter your email address'}" />
+        </label>
+        <button class="email-poc__button" type="submit">${properties.buttonLabel || 'Send'}</button>
+    </form>
+
+    <p class="email-poc__status" role="status" aria-live="polite"></p>
+</div>

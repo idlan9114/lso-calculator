@@ -1,0 +1,5 @@
+{
+  "enabled": true,
+  "fromAddress": "$[env:EMAIL_FROM_ID]",
+  "allowedRecipientDomains": []
+}

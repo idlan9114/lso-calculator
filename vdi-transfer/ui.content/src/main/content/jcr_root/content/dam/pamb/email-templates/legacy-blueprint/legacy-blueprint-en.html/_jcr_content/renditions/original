@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- The title element below is the email subject. Available placeholders: name, email, mobile, state,
+       legacyAmount, putAside, gap, recommendedPlan, peopleRows, priorities, privacyLink (written as dollar-brace). -->
+  <title>Your Legacy Blueprint</title>
+</head>
+<body style="margin:0;padding:0;background:#F5F6F7;font-family:Arial,'Open Sans',sans-serif;color:#1A1A1A;">
+  <div style="display:none;max-height:0;overflow:hidden;opacity:0;color:transparent;">
+    Your Legacy Blueprint is ready. Review your plan summary and next steps.
+  </div>
+
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#F5F6F7;margin:0;padding:0;">
+    <tr>
+      <td align="center" style="padding:28px 14px;">
+        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="max-width:640px;background:#FFFFFF;border-radius:12px;overflow:hidden;border:1px solid #E5E7EA;">
+          <tr>
+            <td style="background:#DA291C;padding:26px 28px;color:#FFFFFF;">
+              <div style="font-size:12px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;margin-bottom:10px;">
+                Legacy Planner
+              </div>
+              <div style="font-size:28px;line-height:1.2;font-weight:700;margin:0;">
+                Your plan is ready, ${name}.
+              </div>
+              <div style="font-size:15px;line-height:1.6;margin-top:12px;color:#FDEAEA;">
+                Thank you for completing the Legacy Planner. Here is a copy of the details you shared and the plan summary created for you.
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:28px;">
+              <p style="font-size:16px;line-height:1.65;margin:0 0 20px;">
+                Hi ${name},
+              </p>
+
+              <p style="font-size:16px;line-height:1.65;margin:0 0 24px;">
+                Your Legacy Blueprint has been prepared based on the information you provided. You can use this summary as a starting point to review your legacy planning needs with a wealth planner.
+              </p>
+
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#FDF1F1;border:1px solid #F4C7C3;border-radius:10px;margin-bottom:24px;">
+                <tr>
+                  <td style="padding:22px;">
+                    <div style="font-size:13px;font-weight:700;color:#A71E13;text-transform:uppercase;letter-spacing:.9px;margin-bottom:8px;">
+                      Recommended plan amount
+                    </div>
+                    <div style="font-size:32px;line-height:1.15;font-weight:700;color:#DA291C;">
+                      ${recommendedPlan}
+                    </div>
+                    <div style="font-size:14px;line-height:1.55;color:#5B6670;margin-top:8px;">
+                      Based on your legacy amount, what you have already put aside, and the amount still to plan for.
+                    </div>
+                  </td>
+                </tr>
+              </table>
+
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="margin-bottom:24px;">
+                <tr>
+                  <td style="font-size:18px;font-weight:700;padding-bottom:12px;">
+                    Your Details
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="border:1px solid #E5E7EA;border-radius:10px;overflow:hidden;">
+                      <tr>
+                        <td style="padding:12px 16px;background:#FAFAFA;color:#5B6670;font-size:14px;width:38%;">Name</td>
+                        <td style="padding:12px 16px;font-size:14px;font-weight:700;">${name}</td>
+                      </tr>
+                      <tr>
+                        <td style="padding:12px 16px;background:#FAFAFA;color:#5B6670;font-size:14px;border-top:1px solid #E5E7EA;">Email</td>
+                        <td style="padding:12px 16px;font-size:14px;font-weight:700;border-top:1px solid #E5E7EA;">${email}</td>
+                      </tr>
+                      <tr>
+                        <td style="padding:12px 16px;background:#FAFAFA;color:#5B6670;font-size:14px;border-top:1px solid #E5E7EA;">Mobile</td>
+                        <td style="padding:12px 16px;font-size:14px;font-weight:700;border-top:1px solid #E5E7EA;">${mobile}</td>
+                      </tr>
+                      <tr>
+                        <td style="padding:12px 16px;background:#FAFAFA;color:#5B6670;font-size:14px;border-top:1px solid #E5E7EA;">State</td>
+                        <td style="padding:12px 16px;font-size:14px;font-weight:700;border-top:1px solid #E5E7EA;">${state}</td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="margin-bottom:24px;">
+                <tr>
+                  <td style="font-size:18px;font-weight:700;padding-bottom:12px;">
+                    Plan Summary
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td style="padding:16px;background:#FFFFFF;border:1px solid #E5E7EA;border-radius:10px;">
+                          <div style="font-size:13px;color:#5B6670;margin-bottom:5px;">Amount you&rsquo;d love to leave behind</div>
+                          <div style="font-size:20px;font-weight:700;color:#1A1A1A;">${legacyAmount}</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="height:10px;font-size:10px;line-height:10px;">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td style="padding:16px;background:#FFFFFF;border:1px solid #E5E7EA;border-radius:10px;">
+                          <div style="font-size:13px;color:#5B6670;margin-bottom:5px;">Already put aside</div>
+                          <div style="font-size:20px;font-weight:700;color:#1A1A1A;">${putAside}</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="height:10px;font-size:10px;line-height:10px;">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td style="padding:16px;background:#FFFFFF;border:1px solid #E5E7EA;border-radius:10px;">
+                          <div style="font-size:13px;color:#5B6670;margin-bottom:5px;">Still to plan for</div>
+                          <div style="font-size:20px;font-weight:700;color:#DA291C;">${gap}</div>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="margin-bottom:24px;">
+                <tr>
+                  <td style="font-size:18px;font-weight:700;padding-bottom:12px;">
+                    People Included
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="border:1px solid #E5E7EA;border-radius:10px;overflow:hidden;background:#FAFAFA;">
+                      <tr>
+                        <td style="padding:10px 12px;font-size:12px;color:#5B6670;font-weight:700;">Name</td>
+                        <td style="padding:10px 12px;font-size:12px;color:#5B6670;font-weight:700;">Relationship</td>
+                        <td style="padding:10px 12px;font-size:12px;color:#5B6670;font-weight:700;">Share</td>
+                        <td style="padding:10px 12px;font-size:12px;color:#5B6670;font-weight:700;">How they receive it</td>
+                      </tr>
+                      ${peopleRows}
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="margin-bottom:26px;">
+                <tr>
+                  <td style="font-size:18px;font-weight:700;padding-bottom:12px;">
+                    Your Top Priorities
+                  </td>
+                </tr>
+                <tr>
+                  <td style="font-size:15px;line-height:1.7;color:#1A1A1A;background:#FAFAFA;border:1px solid #E5E7EA;border-radius:10px;padding:16px;">
+                    ${priorities}
+                  </td>
+                </tr>
+              </table>
+
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#22252A;border-radius:10px;margin-bottom:24px;">
+                <tr>
+                  <td style="padding:20px;color:#FFFFFF;">
+                    <div style="font-size:17px;font-weight:700;margin-bottom:8px;">What happens next?</div>
+                    <div style="font-size:14px;line-height:1.65;color:#EDEFF1;">
+                      One of our wealth planners will be in touch to walk through your Legacy Blueprint and answer any questions.
+                    </div>
+                  </td>
+                </tr>
+              </table>
+
+              <p style="font-size:15px;line-height:1.65;margin:0 0 4px;">
+                Warm regards,
+              </p>
+              <p style="font-size:15px;line-height:1.65;margin:0;font-weight:700;">
+                Legacy Planning Team
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="background:#FAFAFA;border-top:1px solid #E5E7EA;padding:18px 28px;">
+              <p style="font-size:12px;line-height:1.55;color:#6B7280;margin:0;">
+                This email was generated from the Legacy Planner based on the information submitted by ${name}. Please keep this email for your own reference.
+                Read how we handle your data in our <a href="${privacyLink}" style="color:#DA291C;">Privacy Notice</a>.
+              </p>
+            </td>
+          </tr>
+        </table>
+
+        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="max-width:640px;">
+          <tr>
+            <td style="padding:16px 8px 0;text-align:center;font-size:12px;line-height:1.5;color:#8A9199;">
+              You received this email because you requested your Legacy Blueprint.
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

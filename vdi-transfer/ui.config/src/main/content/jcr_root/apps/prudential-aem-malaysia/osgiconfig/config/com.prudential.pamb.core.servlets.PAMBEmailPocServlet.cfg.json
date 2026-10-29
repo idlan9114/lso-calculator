@@ -1,0 +1,5 @@
+{
+  "enabled": true,
+  "fromAddress": "no-reply@pamb-poc.local",
+  "allowedRecipientDomains": []
+}

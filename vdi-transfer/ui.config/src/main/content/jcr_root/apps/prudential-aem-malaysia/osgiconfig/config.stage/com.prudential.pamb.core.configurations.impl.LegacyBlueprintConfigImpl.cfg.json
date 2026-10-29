@@ -1,0 +1,11 @@
+{
+  "apiBaseUrl": "$[env:LEGACY_BP_API_URL]",
+  "signingKey": "$[secret:LEGACY_BP_JWT_SECRET]",
+  "issuer": "$[env:LEGACY_BP_JWT_ISSUER]",
+  "subject": "website",
+  "audience": "$[env:LEGACY_BP_JWT_AUDIENCE;default=]",
+  "mailFrom": "$[env:LEGACY_BP_MAIL_FROM]",
+  "connectTimeoutSeconds": 10,
+  "requestTimeoutSeconds": 30,
+  "trackingAllowed": true
+}

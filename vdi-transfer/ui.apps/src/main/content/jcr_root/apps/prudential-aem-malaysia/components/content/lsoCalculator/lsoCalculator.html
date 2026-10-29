@@ -1,0 +1,18 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" />
+<sly data-sly-use.model="com.prudential.pamb.core.models.LsoCalculatorModel" />
+
+<div class="cq-placeholder" data-emptytext="Legacy Blueprint Planner"
+    data-sly-test="${wcmmode.edit && !model.configured}"></div>
+
+<sly data-sly-call="${clientlib.js @ categories='prudential-aem-malaysia.lsoCalculator'}" />
+<sly data-sly-call="${clientlib.css @ categories='prudential-aem-malaysia.lsoCalculator'}" />
+
+<!--/* The frontend renders the journey into __app from the JSON in data-config. */-->
+<div class="lso-calculator"
+    id="${model.componentId}"
+    data-cmp-is="lsoCalculator"
+    data-endpoint="${model.submitEndpoint}"
+    data-config="${model.configJson}">
+    <noscript>The Legacy Blueprint Planner needs JavaScript to run.</noscript>
+    <div class="lso-calculator__app"></div>
+</div>
